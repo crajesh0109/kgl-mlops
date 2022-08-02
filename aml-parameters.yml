@@ -1,0 +1,11 @@
+variables:
+
+  ap_vm_image: ubuntu-20.04
+
+# Training pipeline settings
+
+  # Training dataset settings
+  training_dataset_name: uci-credit-test
+  training_dataset_description: uci_credit
+  training_dataset_local_path: data/training/
+  training_dataset_path_on_datastore: data/training/
